@@ -1,0 +1,15 @@
+services:
+  ubc-campus-explorer-client:
+    build: ./ubc-campus-explorer-client
+    environment:
+      NODE_ENV: production
+    depends_on:
+      - osrm-vancouver
+    ports:
+      - "4173:4173"
+
+  osrm-vancouver:
+    build: ./osrm-vancouver
+    ports:
+      - "5000:5000"
+    

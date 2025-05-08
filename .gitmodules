@@ -1,0 +1,6 @@
+[submodule "ubc-campus-explorer-client"]
+	path = ubc-campus-explorer-client
+	url = https://github.com/t-p-r/ubc-campus-explorer-client
+[submodule "osrm-vancouver"]
+	path = osrm-vancouver
+	url = https://github.com/t-p-r/osrm-vancouver
